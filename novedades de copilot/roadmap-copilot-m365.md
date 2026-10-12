@@ -2,7 +2,7 @@
 
 Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](https://www.microsoft.com/es-es/microsoft-365/roadmap) relacionadas con Copilot, capacidades de IA e integración en Microsoft 365. Se actualiza periódicamente añadiendo las entradas nuevas o modificadas más recientes en la parte superior de cada sección.
 
-> Última revisión: 2026-09-21
+> Última revisión: 2026-10-12
 
 ---
 
@@ -10,7 +10,10 @@ Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](ht
 
 | Modelo | Estado | Fecha | Dónde está disponible |
 |---|---|---|---|
-| Claude Fable 5.1 (Anthropic) | En despliegue (opt-in, admin-controlled) | sept 2026 | Copilot Cowork, Copilot Studio |
+| Claude Opus 5.5 (Anthropic) | Disponible con carácter general | 22 sep 2026 | Opciones de modelo de Microsoft 365 Copilot |
+| GPT-6 Sol (OpenAI) | Disponible con carácter general | 22 sep 2026 | Opciones de modelo de Microsoft 365 Copilot |
+| GPT-6 Astra (OpenAI) | Disponible; en despliegue | 4 sep 2026 | Microsoft Copilot, Copilot Cowork, Copilot Studio |
+| Claude Fable 5.1 (Anthropic) | En despliegue (opt-in, admin-controlled) | 1 sep 2026 | Copilot Cowork, Copilot Studio |
 | Claude Opus 5 (Anthropic) | Disponible con carácter general | 24-25 jul 2026 | Word, Excel, PowerPoint, Copilot Chat, Copilot Cowork, Copilot Studio |
 | GPT-5.6 (OpenAI) | Disponible con carácter general | 9 jul 2026 | Word, Excel, PowerPoint, Chat, Copilot Cowork |
 | Claude Sonnet 5 (Anthropic) | Disponible con carácter general | 2 jul 2026 | Copilot Cowork, PowerPoint (optimizado para trabajo multi-paso/agéntico) |
@@ -23,6 +26,16 @@ En septiembre de 2026, el selector de modelo se integró directamente en el cuad
 **Claude Fable 5.1** está pensado para tareas complejas y de larga duración. Es un modelo opt-in controlado por el administrador, desactivado por defecto, con requisito de retención de datos: si la organización lo activa, Anthropic no retiene ni prompts ni resultados. Work IQ lo fundamenta en archivos, reuniones y chats del usuario (dentro de sus permisos existentes), de forma que razona sobre el trabajo real y no solo sobre el prompt.
 
 Fuentes: [Microsoft Community Hub — Claude Opus 5](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/4540524), [Microsoft Community Hub — Claude Fable 5](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-fable-5-in-microsoft-365-copilot/4526832), [Redmondmag](https://redmondmag.com/articles/2026/06/16/microsoft-makes-copilot-cowork-generally-available-worldwide.aspx)
+
+---
+
+## Nuevo Copilot y Researcher (Investigador)
+
+- **25 sep 2026** — Nueva experiencia de **Copilot con Home, Code y Autopilot**, en acceso anticipado Frontier.
+- **Inteligencia multimodelo en Investigador (Researcher)**: *Critique* (ID 558538) y *Council* (ID 553213), en desarrollo ("próximamente").
+- **En desarrollo:** *Copilot Managed Runtime* y la creación de apps en Copilot Cowork y Copilot Studio.
+
+Fuente: [Microsoft 365 Roadmap](https://www.microsoft.com/es-es/microsoft-365/roadmap)
 
 ---
 
@@ -149,6 +162,8 @@ Fuentes: [Windows Forum — Excel Canvas](https://windowsforum.com/windows-news.
 ---
 
 ## Historial de actualizaciones de este documento
+
+- **2026-10-12**: Añadidos Claude Opus 5.5 y GPT-6 Sol (GA, 22 sep), GPT-6 Astra (4 sep), nueva sección "Nuevo Copilot y Researcher" (Home/Code/Autopilot en Frontier, Critique y Council, Managed Runtime, apps en Cowork/Studio). Fecha de Fable 5.1 precisada (1 sep).
 
 - **2026-09-21**: Añadido Claude Fable 5.1 como nuevo modelo en Copilot Cowork/Studio, capacidades de Planner en Copilot Cowork, nueva sección de PowerPoint (Brand Kit y Skills de Brand Kit en Markdown) y actualización de Excel Canvas con calendario de disponibilidad general (septiembre 2026).
 - **2026-09-14**: Creación inicial del documento a partir de la revisión del roadmap de Microsoft 365 (novedades de junio a septiembre de 2026: modelos Claude/GPT, Copilot Cowork GA, Work IQ APIs, Copilot Notebooks, Deep Citations, SharePoint/OneDrive, Teams, Word/Outlook, Excel, gobernanza y UI).
