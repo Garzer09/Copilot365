@@ -2,7 +2,7 @@
 
 Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](https://www.microsoft.com/es-es/microsoft-365/roadmap) relacionadas con Copilot, capacidades de IA e integración en Microsoft 365. Se actualiza periódicamente añadiendo las entradas nuevas o modificadas más recientes en la parte superior de cada sección.
 
-> Última revisión: 2026-09-21
+> Última revisión: 2026-10-19
 
 ---
 
@@ -10,6 +10,9 @@ Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](ht
 
 | Modelo | Estado | Fecha | Dónde está disponible |
 |---|---|---|---|
+| Claude Opus 5.5 (Anthropic) | Disponible con carácter general | 22 sep 2026 | Opciones de modelo de Microsoft 365 Copilot |
+| GPT-6 Sol (OpenAI) | Disponible con carácter general | 22 sep 2026 | Opciones de modelo de Microsoft 365 Copilot |
+| GPT-6 Astra (OpenAI) | En despliegue | 4 sep 2026 | Copilot Cowork, Copilot Studio |
 | Claude Fable 5.1 (Anthropic) | En despliegue (opt-in, admin-controlled) | sept 2026 | Copilot Cowork, Copilot Studio |
 | Claude Opus 5 (Anthropic) | Disponible con carácter general | 24-25 jul 2026 | Word, Excel, PowerPoint, Copilot Chat, Copilot Cowork, Copilot Studio |
 | GPT-5.6 (OpenAI) | Disponible con carácter general | 9 jul 2026 | Word, Excel, PowerPoint, Chat, Copilot Cowork |
@@ -125,8 +128,18 @@ Fuentes: [Windows Forum — Excel Canvas](https://windowsforum.com/windows-news.
 
 ## Interfaz de usuario
 
+- **14 sep 2026** — Nuevo Copilot con Home, Code y Autopilot, en acceso anticipado Frontier.
+
 - **ago 2026** — Nueva pantalla de inicio del chat, diseño de respuesta más depurado y panel de navegación rediseñado en la app de Microsoft 365 Copilot (web y escritorio).
 - Selección de texto en una respuesta del Chat (frase, párrafo o tabla) para pedir a Copilot que trabaje solo sobre ese fragmento.
+
+---
+
+## Próximamente (en desarrollo según el roadmap)
+
+- Copilot Managed Runtime.
+- Creación de aplicaciones en Copilot Cowork y Copilot Studio.
+- Inteligencia multimodelo en Researcher (Critique y Council).
 
 ---
 
@@ -149,6 +162,8 @@ Fuentes: [Windows Forum — Excel Canvas](https://windowsforum.com/windows-news.
 ---
 
 ## Historial de actualizaciones de este documento
+
+- **2026-10-19**: Añadidos Claude Opus 5.5 y GPT-6 Sol (GA, 22 sep), GPT-6 Astra (en despliegue en Cowork/Studio), el nuevo Copilot con Home/Code/Autopilot (Frontier) y la sección "Próximamente" (Managed Runtime, apps en Cowork/Studio, Critique y Council en Researcher). Nota: la página del roadmap indica las fechas sin año.
 
 - **2026-09-21**: Añadido Claude Fable 5.1 como nuevo modelo en Copilot Cowork/Studio, capacidades de Planner en Copilot Cowork, nueva sección de PowerPoint (Brand Kit y Skills de Brand Kit en Markdown) y actualización de Excel Canvas con calendario de disponibilidad general (septiembre 2026).
 - **2026-09-14**: Creación inicial del documento a partir de la revisión del roadmap de Microsoft 365 (novedades de junio a septiembre de 2026: modelos Claude/GPT, Copilot Cowork GA, Work IQ APIs, Copilot Notebooks, Deep Citations, SharePoint/OneDrive, Teams, Word/Outlook, Excel, gobernanza y UI).
