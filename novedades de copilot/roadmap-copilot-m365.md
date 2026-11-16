@@ -2,7 +2,7 @@
 
 Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](https://www.microsoft.com/es-es/microsoft-365/roadmap) relacionadas con Copilot, capacidades de IA e integración en Microsoft 365. Se actualiza periódicamente añadiendo las entradas nuevas o modificadas más recientes en la parte superior de cada sección.
 
-> Última revisión: 2026-09-21
+> Última revisión: 2026-11-16
 
 ---
 
@@ -10,6 +10,8 @@ Base de conocimiento con las novedades relevantes del [Microsoft 365 Roadmap](ht
 
 | Modelo | Estado | Fecha | Dónde está disponible |
 |---|---|---|---|
+| Claude Opus 5.5 y GPT-6 Sol | Disponible con carácter general | 22 sep 2026 | Microsoft 365 Copilot |
+| GPT-6 Astra (OpenAI) | En despliegue | 4 sep 2026 | Copilot |
 | Claude Fable 5.1 (Anthropic) | En despliegue (opt-in, admin-controlled) | sept 2026 | Copilot Cowork, Copilot Studio |
 | Claude Opus 5 (Anthropic) | Disponible con carácter general | 24-25 jul 2026 | Word, Excel, PowerPoint, Copilot Chat, Copilot Cowork, Copilot Studio |
 | GPT-5.6 (OpenAI) | Disponible con carácter general | 9 jul 2026 | Word, Excel, PowerPoint, Chat, Copilot Cowork |
@@ -23,6 +25,44 @@ En septiembre de 2026, el selector de modelo se integró directamente en el cuad
 **Claude Fable 5.1** está pensado para tareas complejas y de larga duración. Es un modelo opt-in controlado por el administrador, desactivado por defecto, con requisito de retención de datos: si la organización lo activa, Anthropic no retiene ni prompts ni resultados. Work IQ lo fundamenta en archivos, reuniones y chats del usuario (dentro de sus permisos existentes), de forma que razona sobre el trabajo real y no solo sobre el prompt.
 
 Fuentes: [Microsoft Community Hub — Claude Opus 5](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/4540524), [Microsoft Community Hub — Claude Fable 5](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-fable-5-in-microsoft-365-copilot/4526832), [Redmondmag](https://redmondmag.com/articles/2026/06/16/microsoft-makes-copilot-cowork-generally-available-worldwide.aspx)
+
+---
+
+## Novedades de septiembre–octubre 2026 (Anuncios del roadmap)
+
+Fuente: sección de anuncios de la [página del roadmap](https://www.microsoft.com/es-es/microsoft-365/roadmap). Los anuncios no llevan ID de roadmap; la tabla de elementos mostraba 0 resultados en la revisión.
+
+| Fecha | Novedad | Estado |
+|---|---|---|
+| 29 oct 2026 | **Microsoft Copilot para información financiera** (financial reporting) *(nuevo)* | Public preview |
+| 21 oct 2026 | Microsoft Contact Center Intelligence | Public preview |
+| 15 oct 2026 | Microsoft Copilot para información legal | Disponibilidad general |
+| 9 oct 2026 | Office en Copilot | Programa Frontier |
+| 7 oct 2026 | Aplicaciones y agentes de Copilot Studio | Public preview |
+| 25 sep 2026 | Nuevo Copilot con Home, Code y Autopilot | Programa Frontier |
+| 23 sep 2026 | Capacidades ERP basadas en agentes en Dynamics 365 | Disponibilidad general |
+| 22 sep 2026 | Claude Opus 5.5 y GPT-6 Sol en M365 Copilot | Disponibilidad general |
+
+**Próximamente (sin fecha):** cuentas de agente para agentes de Copilot Studio, Copilot Managed Runtime y creación de apps en Copilot Cowork y Copilot Studio.
+
+**Copilot para información financiera (29 oct 2026, public preview):** nueva experiencia de Copilot orientada a la elaboración de informes financieros, en la línea de los escenarios de reporting de Copilot for Finance (detección de variaciones y errores de reporting, borradores de comentarios financieros, presentaciones y correos a partir de los datos). Complementa a las capacidades financieras de Copilot en Excel (GA, 24 jun 2026) y a Copilot para información legal (GA, 15 oct 2026). El roadmap no detalla aún precio ni requisitos de licencia.
+
+---
+
+## Resumen de octubre 2026 y rollouts de noviembre
+
+Recopilación del resumen mensual "What's new in Microsoft Copilot — October 2026" y de las notas de versión. Varias funciones están limitadas al programa **Frontier** y su despliegue general es escalonado (parte llega en noviembre o más tarde).
+
+- **Copilot Workspaces**: permite crear, editar y colaborar en archivos de Word, Excel y PowerPoint directamente dentro del workspace. Algunas fuentes lo presentan como la evolución de Notebooks, aunque Microsoft sigue publicando novedades de Notebooks (pendiente de confirmar).
+- **Nueva pantalla Home** que unifica Chat y Cowork, con **Autopilot** (agente personal siempre activo) y **skills disponibles también en Copilot Chat**.
+- **Excel**: lienzo interactivo que convierte los datos del libro en un informe (evolución de Excel Canvas) y nueva skill de **limpieza de datos** (duplicados, formatos inconsistentes, tipos de datos incorrectos).
+- **PowerPoint**: el diseño de diapositivas pasa a usar **Claude Sonnet 5.5**; Copilot puede **seguir trabajando en tareas largas aunque el usuario cierre la aplicación**; skills personalizadas en Windows y uso de imágenes adjuntas como referencia al crear la presentación.
+- **Word**: skills orientadas al ámbito legal, formato específico por documento, **soporte de Markdown** y citas en las respuestas de Copilot al editar documentos.
+- **GCC**: la edición con Copilot en Word, Excel y PowerPoint llega a clientes de Government Community Cloud.
+- **Office en Copilot (MC1530611)**: lleva la experiencia completa de Office a la app Microsoft Copilot; despliegue programado para mediados de noviembre de 2026, sin acción requerida por parte del administrador.
+- **Microsoft Ignite (17–20 nov 2026)**: se esperan nuevos anuncios de Copilot y agentes que se incorporarán en la próxima revisión.
+
+Fuentes: [Microsoft Tech Community — What's new in Microsoft Copilot (octubre 2026)](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/what%E2%80%99s-new-in-microsoft-copilot--october-2026/4568528), [Microsoft Learn — Release notes de Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes), [Windows Report — Novedades de octubre 2026](https://windowsreport.com/microsoft-outlines-new-copilot-features-added-in-october-2026/), [Windows Forum — Workspaces, Chat Skills y Purview DLP](https://windowsforum.com/news/microsoft-365-copilot-october-2026-update-workspaces-chat-skills-and-purview-dlp.450293/), [MC1530611](https://app.cloudscout.one/evergreen-item/MC1530611/)
 
 ---
 
@@ -145,10 +185,15 @@ Fuentes: [Windows Forum — Excel Canvas](https://windowsforum.com/windows-news.
 - [Windows Forum — Excel Canvas](https://windowsforum.com/windows-news.4/excel-canvas-what-microsofts-2026-roadmap-promises.443985/)
 - [Microsoft Support — Brand Kit en Copilot](https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app)
 - [Microsoft 365 Message Center — MC1473166](https://mc.merill.net/message/MC1473166)
+- [Microsoft Tech Community — What's new in Microsoft Copilot (octubre 2026)](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/what%E2%80%99s-new-in-microsoft-copilot--october-2026/4568528)
+- [Microsoft Learn — Release notes de Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+- [Windows Report — Novedades de Copilot en octubre 2026](https://windowsreport.com/microsoft-outlines-new-copilot-features-added-in-october-2026/)
 
 ---
 
 ## Historial de actualizaciones de este documento
 
+- **2026-11-16**: Añadido Copilot para información financiera (public preview, 29 oct 2026) y nueva sección con el resumen de octubre 2026 (Copilot Workspaces, Home con Autopilot, skills en Chat, limpieza de datos en Excel, Sonnet 5.5 en PowerPoint, Markdown en Word, GCC) y el despliegue de Office en Copilot (MC1530611, mediados de noviembre).
+- **2026-11-09**: Añadidos Claude Opus 5.5, GPT-6 Sol y GPT-6 Astra, y la sección de novedades sept–oct 2026 (nuevo Copilot Home/Code/Autopilot, Office en Copilot, Copilot Studio apps, Contact Center Intelligence, Copilot legal, ERP agéntico en Dynamics 365).
 - **2026-09-21**: Añadido Claude Fable 5.1 como nuevo modelo en Copilot Cowork/Studio, capacidades de Planner en Copilot Cowork, nueva sección de PowerPoint (Brand Kit y Skills de Brand Kit en Markdown) y actualización de Excel Canvas con calendario de disponibilidad general (septiembre 2026).
 - **2026-09-14**: Creación inicial del documento a partir de la revisión del roadmap de Microsoft 365 (novedades de junio a septiembre de 2026: modelos Claude/GPT, Copilot Cowork GA, Work IQ APIs, Copilot Notebooks, Deep Citations, SharePoint/OneDrive, Teams, Word/Outlook, Excel, gobernanza y UI).
